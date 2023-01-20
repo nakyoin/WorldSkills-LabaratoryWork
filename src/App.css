@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+.inputhead{
+  border-radius: 20px;
+  margin-left: 41%;
+  margin-top: 1%;
+  height: 30px;
+  width: 250px;
+  font-family: 'Roboto Mono', monospace;
+  
+}
+
+.block{
+  text-decoration: line-through;
+}
+
+.tasks{
+  margin-left: 37%;
+  margin-top: 30px;
+  font-family: 'Roboto Mono', monospace;
+}
+.todos{
+  opacity: 20%;
+  font-size: 100px;
+  color: black;
+  text-align: center;
+  
+}
+.headbutton{
+  font-family: 'Roboto Mono', monospace;
+}
