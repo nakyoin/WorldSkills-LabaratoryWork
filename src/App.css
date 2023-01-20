@@ -1,31 +1,55 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
 
-.inputhead{
-  border-radius: 20px;
-  margin-left: 41%;
-  margin-top: 1%;
-  height: 30px;
-  width: 250px;
+
+
+
+body{
   font-family: 'Roboto Mono', monospace;
-  
 }
 
-.block{
+.todos{
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 100px;
+  opacity: 20%;
+}
+.input{
+  border-radius:  10px;
+  margin-left: 39%;
+  height: 40px;
+  width: 320px;
+}
+button{
+  background-color: azure;
+ 
+}
+.btnsubmit{
+  padding-left: 10px;
+  background-color: aliceblue;
+}
+
+.table{
+  margin-left: 36%;
+  text-align: center;
+  margin-top: 50px;
+}
+
+ul{
+  list-style: none;
+}
+.checked{
   text-decoration: line-through;
 }
-
-.tasks{
-  margin-left: 37%;
-  margin-top: 30px;
-  font-family: 'Roboto Mono', monospace;
+.check{
+  margin-right: 20px;
 }
-.todos{
-  opacity: 20%;
-  font-size: 100px;
-  color: black;
+.delete{
+  display: flex;
+}
+.alltext{
+  display: flex;
   text-align: center;
-  
 }
-.headbutton{
-  font-family: 'Roboto Mono', monospace;
-}
+
+
+

@@ -1,11 +1,11 @@
-import React from "react";
-import Task from './tasks_of_obj/Task'
-import Tasks from './tasks_of_obj/Tasks'
+import './App.css';
+import Laba from './components/Laba';
+
+
 function App() {
- <div>
-<Task />
-<Tasks />
- </div>
+return <div className=''>
+    <Laba />
+  </div>
 }
 
 export default App;
